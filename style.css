@@ -1,0 +1,1825 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* <<<<<<<<<<<<<<<<< Nav-bar Start>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+.navbar-nav {
+    margin: auto;
+}
+
+header.nav-heaad {
+    padding: 15px;
+    margin-left: 15px;
+}
+
+span.your-key.d-block {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: #000000;
+}
+
+/* nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 15px;
+    margin: 10px;
+} */
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+div#navbarNav {
+    margin-top: -25px;
+}
+
+a.navbar-brand span {
+    color: #000000;
+    font-weight: 500;
+}
+
+a.nav-link {
+    color: #000000 !important;
+    font-weight: 400;
+}
+
+
+a.nav-link.ora-colo {
+    color: #FE9901 !important;
+    font-weight: 500;
+}
+
+a.btn.btn-outline-primary.signs-in {
+    border-color: #FE9901;
+    color: #FE9901;
+    font-weight: 500;
+    padding: 10px 30px 10px 30px !important;
+    border-radius: 6px;
+}
+
+a.btn.btn-outline-primary.signs-in:hover {
+    background-color: #FE9901;
+    color: #fff;
+}
+
+a.nav-link:hover {
+    color: #FE9901 !important;
+    font-weight: 700;
+}
+
+/* <<<<<<<<<<<<<<<<< Nav-bar End >>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+
+
+/* <<<<<<<<<<<<<<<<< Login page  >>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+.login-section {
+    background-image: url("/assets/images/log-in-bg.png");
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.login-title h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-title p {
+    color: #8A8787;
+}
+
+.login-title hr {
+    width: 60px;
+    border-top: 2px solid #FE9901;
+    margin: 0 auto 20px;
+}
+
+
+.rental-log {
+    padding: 60px;
+    box-shadow: 0px 0px 42px 0px #00000040;
+    border-radius: 23px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    margin-bottom: 40px;
+}
+
+a.forgot-password {
+    float: right;
+    position: relative;
+    top: -30px;
+    color: #FE9901;
+    text-decoration: none;
+}
+
+button.btn.btn-primary.btn-block.arrow-singin {
+    background-color: orange !important;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 12px;
+}
+
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    /* opacity: .25; */
+}
+
+.or-cent {
+    text-align: center;
+}
+
+.custooom-hr {
+    position: relative;
+    border: none;
+    height: 1px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    color: gainsboro;
+}
+
+.custooom-hr::before {
+    content: "or";
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    font-weight: 700;
+    color: rgb(184, 181, 181);
+    font-size: 18px;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 0 10px;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #E4E7E9;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.google-btn img {
+    margin-right: 20px;
+}
+
+.login-image img {
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 122px;
+}
+
+span.google-text {
+    font-weight: 500;
+    color: #9E9E9E;
+}
+
+p.not-have.text-center.mb-0 {
+    font-weight: 400;
+    color: #8A8787;
+}
+
+a.text-black-simg {
+    color: orange;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* <<<<<<<<<<<<<<<<< Login page End >>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<< Signup page >>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+.form-group input[type="text"],
+.form-group input[type="tel"] {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    margin-bottom: 40px;
+}
+
+
+button.btn.btn-primary.btn-block.arrow-singup {
+    background-color: orange !important;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+span.blue-terms {
+    color: #00c0ffd1;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+/* <<<<<<<<<<<<<<<<< Signup page End >>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+
+
+/* <<<<<<<<<<<<<<<<< Footer >>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+.footer-section {
+    background-color: #FEF4E5;
+    padding: 30px;
+    margin-top: 40px;
+    /* margin-bottom: 20px; */
+}
+
+.rightsreserve p {
+    color: #7B7B7B;
+}
+
+p.diss-footer {
+    margin-top: 20px;
+    color: #7B7B7B;
+    text-align: justify;
+    width: 450px;
+}
+
+.footer_meenu ul li a {
+    font-size: 15px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #7B7B7B;
+    cursor: pointer;
+}
+
+input.form-control.footer.mail {
+    border: white;
+    color: #7B7B7B;
+}
+
+.company-foote {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_meenu {
+    margin-top: 20px;
+}
+
+.headline-foot {
+    margin-top: 20px;
+}
+
+span.input-group-text {
+    background: white;
+    border: white;
+}
+
+button.sub-foot-new.btn.btn-primary.btn-block {
+    background-color: #FE9901;
+    border: #FE9901;
+}
+
+p.diiss-footer {
+    margin-top: 20px;
+    color: #7B7B7B;
+}
+
+.headline-foot h5 {
+    font-weight: 700;
+    color: #3D3D3D;
+    text-transform: capitalize;
+}
+
+ul.footer-linkss li {
+    list-style: none;
+}
+
+
+/* <<<<<<<<<<<<<<<<< Footer End>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+
+
+/* <<<<<<<<<<<<<<<<< Home Page>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+
+#heroo {
+    background-image: url(/assets/images/Banner\ Home\ Page.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.find-ur-own span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.without-bard {
+    margin-left: 20px;
+}
+
+.maiin-text-indew {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 80px;
+}
+
+
+.find-ur-own {
+    border: 1px solid #ECFFF226;
+    background-color: #ECFFF226;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+h1.graadient_text {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.texxt-icon {
+    display: flex;
+    margin-left: 12px;
+}
+
+h1.graadient_text span {
+    color: #FE9901;
+}
+
+.discover-ur-home p {
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 400;
+    width: 60%;
+}
+
+.dropdowns-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.dropdowns-container select {
+    flex: 1; 
+    margin-right: 10px;
+}
+
+
+
+.dorpdown-back-colo {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: -30px;
+    box-shadow: 0px 0px 27px 0px #00000040;
+    border-radius: 0px 16px 16px 16px;
+}
+
+.to-adjust-box {
+    padding: 65px;
+}
+
+.dropdown-toggle::after {
+
+    font-weight: 900;
+    margin-left: 5px;
+   
+}
+
+.dropdown-toggle::before {
+    content: none;
+    
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.btn-secondary.form-control {
+    display: flex;
+    align-items: center;
+}
+
+.dropdowwwn-text {
+    margin-right: auto;
+}
+
+.dropdown-icon {
+    margin-left: 5px;
+    color: #777777;
+}
+
+button#dropdownMenuButton1 {
+    background-color: transparent;
+    color: #BCBCBC;
+    border: 1px solid #C8C8C8;
+}
+
+
+#search-input {
+    display: block;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    color: #BCBCBC;
+    width: 420px;
+    border: 1px solid #C8C8C8;
+    font-family: 'Satoshi', sans-serif;
+    padding: 0px;
+    margin-top: -12px;
+    padding-left: 50px;
+}
+
+.search-dowp {
+    height: 49px;
+    color: #595959;
+    position: relative;
+}
+
+#glass {
+    position: relative;
+    left: 36px;
+    font-size: 0.9em;
+    margin-top: -10px;
+}
+
+button.serach-drops.btn.btn-outline-secondary.search-btn {
+    border-color: #FE9901;
+    background-color: #FE9901;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 400;
+    height: 40px;
+    color: #ffffff;
+    margin-top: -2px;
+}
+
+section.rooms-of-months {
+    padding: 40px;
+    margin-top: -20px;
+}
+
+.card-body.para-icn.d-flex.align-items-center {
+    margin-top: -10px;
+}
+
+h5.cozyyy-text {
+    margin-left: 24px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.card-body.paara-icn.d-flex.align-items-center {
+    margin-top: -20px;
+}
+
+p.card-text.ml-3 {
+    color: #716E6E;
+}
+
+.title-for-home.text-center.mb-4 span {
+    color: #EA600A;
+    font-weight: 600;
+}
+
+.title-for-home {
+    text-align: center;
+}
+
+.title-wrapper-viewall h2 {
+    text-align: center;
+}
+
+.title-wrapper-viewall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-all {
+    margin-left: 10px;
+    position: relative;
+    left: 32%;
+    color: #2EA0D1;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+img.widath.card-img-top {
+    width: 140px;
+    padding: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.cozyyy-text {
+    margin-left: 20px;
+}
+
+.cozyyy-text h5 {
+    font-weight: 700;
+}
+
+.cozyyy-text p {
+    color: #716E6E;
+}
+
+.profile-banao span a {
+    margin-left: 20px;
+    color: #1D75A7 !important;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.card-body.paara-icn.d-flex.align-items-center p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.col-auto.sm-dif {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.raates-news {
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.raates-news span {
+    font-size: 25px;
+    color: #FE9901;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+img.expot-kro {
+    width: 100%;
+    height: auto;
+}
+
+.row.hola {
+    box-shadow: 0px 0px 17px 0px #4e4e4e40;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul.Sta-Malaysia li a {
+    color: #7A7A7A;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+ul.Sta-Malaysia {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card-body.paara-iicn.d-flex.align-items-center {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.rates-news span {
+    font-size: 25px;
+    color: #FE9901;
+    font-weight: 600;
+}
+
+.prp-paragra p {
+    color: #818181;
+}
+
+section.enquiry-prop {
+    padding: 20px;
+    /* box-shadow: 0px 0px 11px 0px #0000001F; */
+}
+
+.enquirry-fee {
+    padding: 35px;
+    margin-left: 25px;
+}
+
+.enquirry-fee p {
+    margin-top: 20px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+ul.enqire-foem {
+    list-style: none;
+    padding: 0;
+}
+
+ul.enqire-foem li {
+    margin-bottom: 30px;
+}
+
+ul.enqire-foem li span {
+    margin-left: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+button.want-to-sub.btn.btn-primary {
+    background-color: #FE9901;
+    border: 0px solid;
+    border-radius: 10px;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+
+textarea.form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+    .all-depeax {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .all-depeax {
+        margin-right: 20px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .all-depeax {
+        margin-right: 30px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .maiin-text-indew {
+        padding-left: 10px;
+    }
+
+    .discover-ur-home {
+        width: 100%;
+    }
+
+    .dropdowns-container {
+        flex-direction: column;
+
+    }
+
+    .dropdowns-container select {
+        margin-bottom: 10px;
+
+    }
+}
+
+
+/* <<<<<<<<<<<<<<<<< Home Page END>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<<<<<<< About Us Page>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+.breadcrumb {
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+.breadcrumb-item.active {
+    color: #030303;
+}
+
+li.breadcrumb-item a {
+    color: #716E6E;
+}
+
+.about-main-titlle {
+    padding: 45px;
+}
+
+.about-main-para {
+    max-width: 780px;
+    color: #716E6E;
+    margin: 30px auto;
+}
+
+
+.title-for-about hr {
+    width: 99px;
+    border-top: 2px solid #FE9901;
+    margin: 0 auto 20px;
+}
+
+.secont-box-para {
+    background-color: #FAFAFA;
+    padding: 30px;
+}
+
+.about-pics img {
+    width: 100%;
+    max-height: 550px;
+    padding: 15px;
+    position: relative;
+    top: 12px;
+}
+
+.about-content {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.about-photo-text {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-content h2 {
+    color: #000000;
+    font-weight: 500;
+}
+
+.about-content p {
+    color: #716E6E;
+    line-height: 26px;
+}
+
+p.about-contente {
+    margin-top: 50px;
+}
+
+.title-for-faq h2 {
+    padding: 2px;
+    margin-left: 29px;
+}
+
+.title-for-faq hr {
+    width: 65px;
+    border-top: 2px solid #FE9901;
+    margin: auto 34px;
+}
+
+
+
+
+.faq-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq-item {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.faq-answer {
+    display: none;
+}
+
+.show-answer {
+    display: block;
+}
+
+.faq-question h4 {
+    margin-left: 20px;
+}
+
+button.toggle-answer {
+    border: 0px;
+    background: transparent;
+    color: orange;
+    font-size: 30px;
+    position: relative;
+    top: -5px;
+}
+
+button.toggle-answer {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.faq-question h4 {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.faq-answer {
+    display: none;
+}
+
+.show-answer {
+    display: block;
+}
+
+.faq-answer.show-answer p {
+    margin-left: 35px;
+}
+
+.faq-answer {
+    gap: 20px;
+    /* Adjust the gap size as needed */
+}
+
+.verticaal-line {
+    position: absolute;
+    border-left: 2px solid #FE9901;
+    height: 65px;
+    margin-top: 4px;
+    margin-left: 6px;
+
+}
+
+.horizontal-line {
+    border-top: 1px solid #BEBEBE;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* <<<<<<<<<<<<<<<<< About Us Page End>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #716E6E;
+    content: ">";
+}
+
+li.breadcrumb-item a {
+    color: #716E6E !important;
+    font-weight: 400;
+}
+
+.breadcrumb-item.active {
+    color: #716E6E;
+    font-weight: 400;
+}
+
+/* <<<<<<<<<<<<<<<<< Book Prperty start>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+.book-prop-head h4 {
+    color: #3D3D3D;
+}
+
+
+.book-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.book-photo {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.add-photos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.add-photos:hover {
+    color: orange;
+}
+
+.book-prop-head {
+    padding: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.row.book-pp {
+    padding: 20px;
+    margin-top: -12px;
+    /* margin-left: 10px; */
+}
+
+.title-for-click h5 {
+    font-weight: 700;
+    color: #000000;
+}
+
+
+.row.medaow {
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.camimage img {
+    height: auto;
+    width: 100%;
+    margin-top: -25px;
+}
+
+.rates-news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.view-details-btn {
+    padding: 6px 16px;
+    background-color: #FE9901; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pagination .page-link {
+    margin-right: 15px;
+}
+
+a.page-link {
+    border-radius: 6px;
+    border: 1px solid #9C9C9C;
+    color: #7A7A7A;
+}
+
+a.page-link.active {
+    background-color: #FE9901;
+    color: #fff;
+    border: 1px solid #FE9901;
+}
+
+.for-top {
+    margin-top: 40px;
+}
+
+.for-another-top {
+    margin-top: -35px;
+}
+
+.go-to-top-tab {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    margin-right: 25px;
+}
+
+.arroow-up {
+    font-size: 20px;
+    color: #FE9901;
+}
+
+.title-for-click {
+    font-size: 18px; 
+}
+
+.title-for-click img {
+    width: 24px; 
+    height: 24px;
+    margin-right: 3px; 
+}
+
+.star-save.d-flex.align-items-center span {
+    color: #7A7A7A;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.star-save.d-flex.align-items-center {
+    margin-right: 20px;
+}
+
+a.detail-a {
+    color: #fff;
+}
+
+/* <<<<<<<<<<<<<<<<< Book Prperty End>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<<<<<<<Prperty Details Start>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+.first-deta-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.proper-detai-photo {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+section.properti-detailss {
+    padding: 20px;
+    margin: 10px;
+}
+
+.proper-detai-photo img {
+    width: 100%;
+    /* margin-top: 10px; */
+    height: 155px;
+    display: block;
+}
+
+.align-height {
+    height: 100%;
+}
+
+.first-deta-photo {
+    margin-bottom: 10px;
+}
+
+
+.rent-now-all {
+    box-shadow: 0px 0px 16px 0px #00000040;
+    padding: 30px;
+}
+
+.ttitle-for-clicck h5 {
+    margin: 30px 0 30px 0;
+}
+
+a.rent-now-allh.btn.btn-primary.btn-block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #FE9901;
+    border: none;
+}
+
+.poorp-paragra p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul.fetures-list li {
+    list-style: none;
+    color: #7A7A7A;
+    font-size: 18px;
+}
+
+.barder-for-details {
+    box-shadow: 0px 0px 16px 0px #00000040;
+    padding: 25px;
+}
+
+p.fetures-paraaa {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.details-features h4 {
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.details-features h5 {
+    margin-bottom: 25px;
+}
+
+li.diff-linkss {
+    margin-top: 20px;
+}
+
+.features-for-flat {
+    width: 225px;
+}
+
+.feature-image img {
+    width: 100%;
+    height: auto;
+}
+
+button.show-more-f.btn.btn-primary.btn-sm.show-more-btn {
+    border: none;
+    background: transparent;
+    color: #3CA5C6;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.barder-for-deetails {
+    padding: 25px;
+    background: #FE9901;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.titlee-for-click h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.tiitlee-for-click {
+    padding: 20px;
+}
+
+.for-barder-d {
+    box-shadow: 0px 0px 8px 0px #00000040;
+}
+
+label.claculate {
+    font-weight: 500;
+    color: #3D3D3D;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+/* <<<<<<<<<<<<<<<<<Prperty details End>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<<<<<<<check details start>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+form.custoomer-info {
+    border: 1px solid #B0B0B0;
+    padding: 30px;
+    border-radius: 19px;
+}
+
+.form-group input.form-control {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    box-shadow: none;
+}
+.form-group input.form-control::placeholder {
+    color: #B3B3B3;
+}
+
+.detailss-features h5 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+
+.detaails-features span {
+    font-size: 18px;
+    color: #484848;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.detaails-features p {
+    color: #7A7A7A;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.detailss-feadtures span {
+    color: #716E6E;
+}
+
+.detailss-feadtures {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+button.e-transfeeer.btn.btn-primary.btn-block:hover {
+    color: #FE9901;
+    border: 1px solid #FE9901;
+    background: #FFF5E6;
+}
+
+button.e-transfeeer.btn.btn-primary.btn-block {
+    color:#B3B3B3;
+    font-weight: 600;
+    border: 1px solid #B0B0B0;
+    background:#FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h6.caaard-title {
+    margin-top: 20px;
+    color: #716E6E;
+}
+
+button.make-pay.btn.btn-primary.btn-block {
+    background: #FE9901;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+.total-amouuunt {
+  
+    padding: 10px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.total-amouuunt h2 {
+    color: #0157FE;
+    font-weight: 700;
+}
+
+.total-amouuunt span {
+    color: #716E6E;
+    font-weight: 400;
+}
+
+.total-amouuunt p {
+    color: #434343;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.ordeeer-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.talal-account {
+    background-color: #F3F5FA;
+    border-radius: 40px;
+    padding: 25px;
+
+}
+
+.order-summary h5 {
+    color: #818181;
+}
+
+.order-summary p {
+    color: #1E1E1E;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.order-summary {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.ordeeer-item span {
+    color: #1E1E1E;
+    font-weight: 500;
+}
+
+span.diff-char {
+    color: #0157FE !important;
+    font-weight: 700 !important;
+}
+
+/* <<<<<<<<<<<<<<<<<check details start>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<< Thank You start>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+.thank-you-head h2 {
+    font-weight: 700;
+    color: #000000;
+}
+
+.thank-you-head p {
+    color: #A9A9A9;
+    margin-top: 25px;
+}
+
+a.explore-more-prop.btn.btn-primary.btn-block.mt-3 {
+    background: #FE9901;
+    border: none;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.thank-you-image img {
+    width: 50%;
+    height: auto;
+}
+
+/* <<<<<<<<<<<<<<<<< Thank You End>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<< Term & cond start>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+.term-and-paragrp {
+    padding: 25px;
+    margin: 20px;
+    background: #FAFAFA8F;
+    border-radius: 15px;
+}
+
+.term-and-paragrp p {
+    color: #716E6E;
+    line-height: 1.8;
+}
+
+.term-and-paragrp-other {
+    color: #716E6E;
+    line-height: 1.8;
+}
+
+.term-and-con span {
+    color: #716E6E;
+}
+
+/* <<<<<<<<<<<<<<<<< Term & cond ENd>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<< Media quiry >>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
+
+
+
+@media (min-width: 319px) and (max-width: 320px) {
+    a.navbar-brand span {
+        color: #000000;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    span.your-key.d-block {
+        font-size: 11px;
+    }
+
+    .login-image img {
+        display: none;
+    }
+
+    p.diss-footer {
+        width: 100% !important;
+    }
+
+    p.not-have.text-center.mb-0 {
+        font-size: 14px;
+    }
+
+    .form-check-label {
+        font-size: 13px;
+    }
+
+    h1.graadient_text {
+        margin-left: 20px;
+        font-size: 30px;
+        position: relative;
+        top: 26px;
+    }
+
+    .discover-ur-home p {
+        width: 97%;
+        font-size: 5px;
+        text-align: start;
+        padding: 10px;
+        top: 25px;
+        position: relative;
+    }
+
+    .without-bard {
+        margin-left: 0px;
+    }
+
+    .find-ur-own {
+        margin-bottom: 5px;
+        position: relative;
+        top: 14px;
+        text-align: center;
+        margin-left: 18px;
+    }
+
+    section.rooms-of-months {
+        padding: 20px;
+        margin-top: 0px;
+    }
+
+    .view-all {
+        left: 8%;
+        top: -3px;
+    }
+
+    .title-wrapper-viewall h2 {
+        font-size: 18px;
+    }
+
+    .dorpdown-back-colo {
+        padding: 20px;
+    }
+
+    .to-adjust-box {
+        padding: 0px;
+    }
+
+    /* nav.navbar.navbar-expand-lg.navbar-light {
+        padding: 0px;
+    } */
+
+    #search-input {
+        width: 150px;
+    }
+
+    .input-group.for-rente {
+        position: relative;
+        top: 18px;
+        right: 4px;
+    }
+
+    button#dropdownMenuButton1 {
+        margin: 10px;
+    }
+
+    .find-ur-own span {
+        color: #fff;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    #heroo {
+        height: auto;
+    }
+
+    .faq-answer.show-answer p {
+        margin-left: 35px;
+    }
+
+    .footer-section {
+        padding: 10px;
+    }
+
+    .enquirry-fee {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .row.book-pp {
+        margin-left: -15px;
+    }
+
+    .row.medaow {
+        margin-left: 0px;
+    }
+
+    .camimage {
+        display: none;
+    }
+
+    .for-another-top {
+        margin-top: 45px !important;
+    }
+
+    section.properti-detailss {
+        padding: 5px;
+        margin: 5px;
+    }
+
+}
+
+@media (min-width: 359px) and (max-width: 360px) {
+
+    .dorpdown-back-colo {
+        padding: 15px;
+    }
+
+    #search-input {
+        width: 160px !important;
+    }
+
+}
+
+@media (min-width: 374px) and (max-width: 375px) {
+    .dorpdown-back-colo {
+        padding: 20px;
+    }
+}
+
+
+
+@media (min-width: 321px) and (max-width: 490px) {
+
+    .login-image img {
+        display: none;
+    }
+
+    .row.book-pp {
+        margin-left: -15px;
+    }
+
+    .form-check-label {
+        font-size: 13px;
+    }
+
+    div#navbarNav {
+        margin-top: 0px;
+    }
+
+    header.nav-heaad {
+        margin-left: 0px;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .breadcrumb {
+        margin-left: 0px;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .row.medaow {
+        margin-left: 0px;
+    }
+
+    .breadcrumb {
+        font-size: 12px;
+    }
+
+    .without-bard {
+        margin-left: 0px;
+    }
+
+    .find-ur-own {
+        margin-bottom: 10px;
+        position: relative;
+        top: 47px;
+        margin-left: 20px;
+    }
+
+    h1.graadient_text {
+        margin-bottom: 10px;
+        position: relative;
+        top: 55px;
+        margin-left: 20px;
+    }
+
+    .camimage {
+        display: none;
+    }
+
+    section.rooms-of-months {
+        padding: 20px;
+        margin-top: 0px;
+    }
+
+    .dorpdown-back-colo {
+        margin-top: 30px;
+    }
+
+    .discover-ur-home p {
+        width: 100%;
+        font-size: 12px;
+        text-align: start;
+        padding: 20px;
+        display: none;
+        top: 25px;
+        position: relative;
+    }
+
+    section.properti-detailss {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    /* nav.navbar.navbar-expand-lg.navbar-light {
+        padding: 4px !important;
+        margin: 10px;
+    } */
+
+    .rental-log {
+        position: relative;
+        top: -20px;
+    }
+
+    a.btn.btn-outline-primary.signs-in {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    p.diss-footer {
+        width: 100% !important;
+    }
+
+    p.not-have.text-center.mb-0 {
+        font-size: 14px;
+    }
+
+    .to-adjust-box {
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    button#dropdownMenuButton1 {
+        margin-bottom: 20px;
+    }
+
+    #search-input {
+        width: 160px;
+    }
+
+    .input-group.for-rente {
+        top: 10px;
+        right: 12px;
+    }
+
+    .col-auto.sm-dif {
+        margin-right: 0;
+        margin-left: -12px;
+    }
+
+    .view-all {
+        left: 8%;
+        top: -3px;
+    }
+
+    .title-wrapper-viewall h2 {
+        font-size: 18px;
+    }
+
+    .faq-answer.show-answer p {
+        margin-left: 34px;
+    }
+
+    .footer-section {
+        padding: 10px;
+    }
+
+    .enquirry-fee {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .for-another-top {
+        margin-top: 45px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+    .login-image img {
+        display: none;
+    }
+
+    .rental-log {
+        padding: 45px;
+        position: relative;
+        top: 55px;
+    }
+
+    div#navbarNav {
+        margin-top: 0px;
+    }
+
+    a.btn.btn-outline-primary.signs-in {
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+
+    p.diss-footer {
+        width: 230px;
+    }
+
+    .footer-section {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .view-all {
+        left: 23%;
+    }
+
+    .dropdowwwn-text {
+        font-size: 12px;
+    }
+
+    .search-bar {
+        margin-top: 30px;
+    }
+
+    .without-bard {
+        margin-left: 0px;
+    }
+
+    .for-another-top {
+        margin-top: 45px;
+    }
+
+    .proper-detai-photo img {
+        height: 86px;
+    }
+
+    button.sub-foot-new.btn.btn-primary.btn-block {
+        background-color: #FE9901;
+        border: #FE9901;
+        font-size: 13px;
+    }
+
+}
+
+@media (min-width: 1100px) and (max-width: 1280px) {
+.for-another-top {
+    margin-top: 20px;
+}
+
+.proper-detai-photo img {
+    height: 146px;
+}
+
+}
+@media (min-width: 1800px) and (max-width: 1920px) {
+
+    /* nav.navbar.navbar-expand-lg.navbar-light {
+        padding: 40px;
+        margin: 10px;
+    } */
+
+    .proper-detai-photo img {
+        width: 100%;
+        /* margin-top: 10px; */
+        height: 230px;
+        display: block;
+    }.proper-detai-photo img {
+        height: 230px;
+    }
+
+    .camimage img {
+        height: 670px;
+    }
+
+    .about-pics img {
+        max-height: 400px;
+    }
+
+
+}
+
+/* <<<<<<<<<<<<<<<<< Media quiry >>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<               >>>>>>>>>>>>>>>> */
